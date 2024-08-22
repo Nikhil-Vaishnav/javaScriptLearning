@@ -22,5 +22,5 @@ console.log(age);*/
 
 // ---------------------------------------------------------------------------------------
 
-let name = "Nikhil";
-console.log(name-1);
+// let name = "Nikhil";
+// console.log(name-1);
