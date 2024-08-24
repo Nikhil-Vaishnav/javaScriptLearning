@@ -24,3 +24,10 @@ console.log(age);*/
 
 // let name = "Nikhil";
 // console.log(name-1);
+
+// template are use to emmbed any exprssion in it .
+// let watchPrice = 8000;
+// let beltPrice = 500;
+// let output = `The total price is :- ${ watchPrice+beltPrice} Ruppes.`;
+// console.log(output);
+// ---------------------------------------------------------------------------------------
