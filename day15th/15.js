@@ -133,3 +133,22 @@ console.log(age);*/
 //      console.log("Not safe");
 // }
 // ---------------------------------------------------------------------------------------
+
+// switch case statement
+
+// let colour = "green" ;
+
+// switch(colour){
+//     case "red":
+//        console.log("stop");
+//            break;
+//      case "yellow":
+//           console.log("slow down");
+//            break;
+//      case "green":
+//           console.log("Go");    
+//            break;    
+//      default :
+//            console.log( "light not working");          
+// }
+// ---------------------------------------------------------------------------------------
