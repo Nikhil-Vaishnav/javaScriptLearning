@@ -31,3 +31,51 @@ console.log(age);*/
 // let output = `The total price is :- ${ watchPrice+beltPrice} Ruppes.`;
 // console.log(output);
 // ---------------------------------------------------------------------------------------
+
+// conditional satetments.
+
+//if
+// console.log("INDIAN VOTING SYSTEM");
+// let age =43;
+// if (age >=18){
+//      console.log("you can vote..");
+
+// }
+// if (age <18){
+//     console.log ("You cannot vote");
+// }
+// console.log("Thank You");
+
+// ---------------------------------------------------------------------------------------
+
+// Practice Qs 
+// creat a traffice light singnle that shows what to do based on colors.
+
+// let color = "yellow";
+// console.log("Your signal:-");
+// if (color =="red"){
+//      console.log("Stop");
+// }
+// if (color == "green"){
+//      console.log("Go");
+// }
+// if(color == "yellow"){
+//      console.log("Go Slow");
+// }
+// ---------------------------------------------------------------------------------------
+
+// Nested if - else
+
+// let marks = 113;
+// if(marks >=33){
+//      console.log("Your are Pass");
+//      if(marks>=80){
+//           console.log("Grade A++");
+//      }
+//      else{
+//           console.log("Grade B");
+//      }
+// }
+// else{
+//      console.log("Better luck next time..")
+// }
