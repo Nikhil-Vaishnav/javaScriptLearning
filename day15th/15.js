@@ -152,3 +152,28 @@ console.log(age);*/
 //            console.log( "light not working");          
 // }
 // ---------------------------------------------------------------------------------------
+
+// Alerts and Prompt
+
+// Alerts are used to display the alerts on the page.
+
+// alert("write something");
+//  console.error("write somthing to print an error messages");
+// console.warn("it helps to write the warnings");
+
+
+
+
+// prompt displays the dialog box that asks user for some input.
+
+// let firstName = prompt("Enter the First Name ");
+// console.log(firstName);
+
+// let firstName = prompt("Enter your first Name -");
+// let middleName = prompt("Enter your Middle Name -");
+// let lastName = prompt("Enter your Last Name -");
+// let fullName=(firstName+" "+middleName+" "+lastName);
+// console.log(fullName);
+// ---------------------------------------------------------------------------------------
+
+
