@@ -79,3 +79,34 @@ console.log(age);*/
 // else{
 //      console.log("Better luck next time..")
 // }
+
+// ---------------------------------------------------------------------------------------
+
+// logical operators
+
+// && || !
+
+
+// using && logical AND.
+// let marks = 8;
+
+// if(marks>=33 && marks >=80)
+// {
+//      console.log("Pass");
+//      console.log("Grade A++");
+// }
+// else {
+//      console.log("Not avaible");
+// }
+
+// using || logical OR
+// let marks = 33;
+
+// if(marks>=33 || marks >=80)
+// {
+//      console.log("Pass");
+//      console.log("Grade A++");
+// }
+// else {
+//      console.log("Not avaible");
+// }
