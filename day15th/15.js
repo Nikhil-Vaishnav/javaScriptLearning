@@ -110,3 +110,15 @@ console.log(age);*/
 // else {
 //      console.log("Not avaible");
 // }
+
+// Practice Qs - A "good string" is starting that starts with "a" and has length >3.
+// write a program to find the good and bad string.
+// let str ="a";
+// if((str[0] == "a") && (str.length >3)){
+//      console.log("Good string");
+// }
+// else{
+//      console.log("Bad String");
+// }
+
+// ---------------------------------------------------------------------------------------
