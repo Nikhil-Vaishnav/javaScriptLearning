@@ -36,3 +36,12 @@
 // console.log(name.trim().toUpperCase());
 // ------------------------------------------------------------------------------------
 
+// Slice mehtod.
+// Returns the part of the original string as new string.
+
+// let name = "Gitsudaipur"
+// console.log(name.slice(4,11));
+// ------------------------------------------------------------------------------------
+
+// Replace method.
+
