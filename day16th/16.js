@@ -27,3 +27,12 @@
 // console.log(msg.indexOf("coding"));
 
 // ------------------------------------------------------------------------------------
+
+// Method Chaining
+
+// using one method after another. Order of execution will be left to right.
+
+// let name = "   Nikhil "; /*I want to trime the white space and also want to convert in upper*/
+// console.log(name.trim().toUpperCase());
+// ------------------------------------------------------------------------------------
+
