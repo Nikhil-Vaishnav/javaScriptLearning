@@ -70,3 +70,11 @@
 // console.log(Students);
 
 //------------------------------------------------------------------------------------
+// Visualizing the arry
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+// console.log(nums[6]);
+// console.log(typeof nums);
+// we can also store differnt types of data in the array/
+
+//------------------------------------------------------------------------------------
