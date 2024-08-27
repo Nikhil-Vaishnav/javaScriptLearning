@@ -92,3 +92,38 @@
 // console.log(fruits);
 
 //------------------------------------------------------------------------------------
+
+// Array Methods
+//  Push :add to end.
+// Pop : delete from end & return it .
+// Unshift :add to start.
+// Shift : delete from start & return it.
+// --------------------------------------
+
+//  Push :add to end.
+// let carBrands =["BMW","Audi"];
+// carBrands.push("Ford");
+// console.log(carBrands); /*It adds at the end.*/
+
+// -------------------------------------
+// Pop : delete from end & return it .
+
+// let carBrands =["BMW","Audi","Ford"];
+// carBrands.pop();
+// console.log(carBrands);/*It delete from the end.*/
+// --------------------------------------
+
+// Unshift :add to start.
+
+// let carBrands =["BMW","Audi"];
+// carBrands.unshift("Ford");
+// console.log(carBrands); /*It adds at the start.*/
+
+//---------------------------------------
+
+// Shift : delete from start & return it.
+
+// let carBrands =["BMW","Audi"];
+// carBrands.shift();
+// console.log(carBrands); /*It delete at the start.*/
+//---------------------------------------
