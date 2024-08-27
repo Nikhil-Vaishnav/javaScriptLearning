@@ -82,4 +82,13 @@
 
 // let emptyArray = [];
 // console.log(emptyArray);
+
+//------------------------------------------------------------------------------------
+
+// Array can be mutable.
+
+// let fruits = ["Orange","Apple","Mango","Banana"];
+// fruits[3]="Mapple";
+// console.log(fruits);
+
 //------------------------------------------------------------------------------------
