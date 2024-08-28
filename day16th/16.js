@@ -111,7 +111,7 @@
 // let carBrands =["BMW","Audi","Ford"];
 // carBrands.pop();
 // console.log(carBrands);/*It delete from the end.*/
-// --------------------------------------
+// -----------------------------------------------------------------------------
 
 // Unshift :add to start.
 
@@ -132,22 +132,48 @@
 
 // for the given start state of an array, change it to final from using methods.
 
-let start =["january","july","march","august"];
-start.shift();
-start.shift();
-console.log(start);
+// let start =["january","july","march","august"];
+// start.shift();
+// start.shift();
+// console.log(start);
 // ans -(2) ['march', 'august']
     
-start.unshift("june");
-start.unshift("july");
-console.log(start);
+// start.unshift("june");
+// start.unshift("july");
+// console.log(start);
 
 // (4) ['july', 'june', 'march', 'august']
 
-
-
-
-
-
-
 //---------------------------------------
+
+// Array methods
+
+// indexOf 
+// includes
+
+// indexOf 
+
+// let colors =["red","yellow","blue"];
+// colors.indexOf("yellow");
+// console.log(colors.indexOf("red"));
+
+// includes
+
+//  let colors = ["red","yellow","blue"];
+//  colors.includes("red");
+//  console.log( colors.includes("red"));
+//  if it contains the serch array then it print true ,if not then it print false.
+//---------------------------------------
+
+// Concatenation of array
+
+// let firstString  =["Nihil","Om","Rehan","Darshan"];
+// let secondString = ["red","yellow","blue"];
+// let ThirdString = ["R","Y","B"];
+
+// firstString.concat(secondString);
+// console.log(firstString.concat(secondString));
+//---------------------------------------
+
+
+
