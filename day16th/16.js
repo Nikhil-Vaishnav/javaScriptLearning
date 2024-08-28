@@ -127,3 +127,27 @@
 // carBrands.shift();
 // console.log(carBrands); /*It delete at the start.*/
 //---------------------------------------
+
+// practice Qs.
+
+// for the given start state of an array, change it to final from using methods.
+
+let start =["january","july","march","august"];
+start.shift();
+start.shift();
+console.log(start);
+// ans -(2) ['march', 'august']
+    
+start.unshift("june");
+start.unshift("july");
+console.log(start);
+
+// (4) ['july', 'june', 'march', 'august']
+
+
+
+
+
+
+
+//---------------------------------------
