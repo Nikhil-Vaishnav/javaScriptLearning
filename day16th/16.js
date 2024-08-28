@@ -175,5 +175,19 @@
 // console.log(firstString.concat(secondString));
 //---------------------------------------
 
+// Reverse of array
+
+// let Students  =["Nihil","Om","Rehan","Darshan"];
+// console.log(Students);
+
+// let newStudents=["Nihil","Om","Rehan","Darshan"];
+// console.log(newStudents.reverse());
+
+//------------------------------------------------------------------------------------
+
+
+
+
+
 
 
