@@ -204,7 +204,13 @@
 
 //output-['Darshan']
 
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// console.log(studentsSecond.slice(-3));
+
+//output-['Om', 'Rehan', 'Darshan']
+
 //------------------------------------------------------------------------------------
+
 
 
 
