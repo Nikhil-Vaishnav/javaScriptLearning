@@ -184,8 +184,27 @@
 // console.log(newStudents.reverse());
 
 //------------------------------------------------------------------------------------
+//  slice method
 
+// let Students  =["Nihil","Om","Rehan","Darshan"];
+// console.log(Students.slice());
+//output-['Nihil', 'Om', 'Rehan', 'Darshan']
 
+// let studentsFirst  =["Nihil","Om","Rehan","Darshan"];
+// console.log(studentsFirst.slice(1,2));
+//output- ['Om']
+
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// console.log(studentsSecond.slice());
+
+//output-(2) ['Rehan', 'Darshan'] 
+
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// console.log(studentsSecond.slice(studentsSecond.length-1));
+
+//output-['Darshan']
+
+//------------------------------------------------------------------------------------
 
 
 
