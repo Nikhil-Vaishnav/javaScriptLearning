@@ -223,7 +223,7 @@
 // console.log(studentsSecond);   
 
 // ------------------------
-
+// added
 // let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
 // // console.log(studentsSecond); 
 // studentsSecond.splice(0,0);
@@ -231,3 +231,17 @@
 // console.log(studentsSecond);   
 
 // output-(6) ['Nihil', 'Charu', 'Vaishnav', 'Om', 'Rehan', 'Darshan']
+
+// --------------------------
+
+// Replace
+
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// // console.log(studentsSecond); 
+// studentsSecond.splice(1,1,"Ompraksh");
+// console.log(studentsSecond.splice(1,1,"Ompraksh"));
+// console.log(studentsSecond); 
+
+// output-['Nihil', 'Ompraksh', 'Rehan', 'Darshan']
+
+// --------------------------
