@@ -210,5 +210,24 @@
 //output-['Om', 'Rehan', 'Darshan']
 
 //------------------------------------------------------------------------------------
+//  splice Method
 
+// format :- splice :removes/replace/add element in place;
 
+// splice(start,deleteCount,item0...itemN)
+
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// // console.log(studentsSecond); 
+// studentsSecond.splice(0,1);
+// console.log(studentsSecond.splice(0,1));
+// console.log(studentsSecond);   
+
+// ------------------------
+
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// // console.log(studentsSecond); 
+// studentsSecond.splice(0,0);
+// console.log(studentsSecond.splice(1,0,"Charu","Vaishnav"));
+// console.log(studentsSecond);   
+
+// output-(6) ['Nihil', 'Charu', 'Vaishnav', 'Om', 'Rehan', 'Darshan']
