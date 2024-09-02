@@ -245,3 +245,12 @@
 // output-['Nihil', 'Ompraksh', 'Rehan', 'Darshan']
 
 // --------------------------
+
+// short method
+
+let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+console.log(studentsSecond); 
+studentsSecond.sort();
+console.log(studentsSecond.sort())
+
+// output- ['Darshan', 'Nihil', 'Om', 'Rehan']  (by default in Assending order)
