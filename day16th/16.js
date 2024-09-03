@@ -266,7 +266,19 @@
 // final: ["july","june","march","august"]
 
 
-let start = ["jan","july","march","august"]
-start.splice(0,2,"july","june");
-console.log(start);
+// let start = ["jan","july","march","august"]
+// start.splice(0,2,"july","june");
+// console.log(start);
   
+// output- ['july', 'june', 'march', 'august']
+// ------
+
+// let start = ["jan","july","march","august"]
+// console.log("Before:-",start.indexOf("july"))
+// start.reverse().indexOf("july");
+// console.log("After:-",start.indexOf("july"));
+
+// output:-Before:- 1
+// 16.js:279 After:- 2
+
+//------------------------------------------------------------------------------------
