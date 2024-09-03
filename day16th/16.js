@@ -248,9 +248,25 @@
 
 // short method
 
-let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
-console.log(studentsSecond); 
-studentsSecond.sort();
-console.log(studentsSecond.sort())
+// let studentsSecond  =["Nihil","Om","Rehan","Darshan"];
+// console.log(studentsSecond); 
+// studentsSecond.sort();
+// console.log(studentsSecond.sort())
 
 // output- ['Darshan', 'Nihil', 'Om', 'Rehan']  (by default in Assending order)
+
+//------------------------------------------------------------------------------------
+
+// Practice Qs
+
+// for the given start state of an array change it to final form using splice method.
+
+// given
+// start: ["jan","july","march","august"]
+// final: ["july","june","march","august"]
+
+
+let start = ["jan","july","march","august"]
+start.splice(0,2,"july","june");
+console.log(start);
+  
