@@ -298,3 +298,13 @@
 // 16.js:293 (3) ['a', 'b', 'c']
 
 //-------------------------------------------------------------------------------
+
+// // Constant arry
+// const array=['a','b','c','d'];
+// let arrayCopy=['a','b','c','d'];
+// // let arrayCopy = array;  (in this we can change the value of aaray but cannot change the address stored in the a)
+// console.log(array);
+// console.log(arrayCopy);
+
+//-------------------------------------------------------------------------------
+
