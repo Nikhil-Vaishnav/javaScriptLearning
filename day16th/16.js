@@ -281,4 +281,20 @@
 // output:-Before:- 1
 // 16.js:279 After:- 2
 
+//-----------------------------------------------------------------------------
+
+// Array refernace
+// let array=['a','b','c','d'];
+// let arrayCopy = array;
+// console.log(arrayCopy);
+// console.log(array);
+// arrayCopy.pop('d');
+// console.log(array);
+// console.log(arrayCopy);
+
+// oputput-(4) ['a', 'b', 'c', 'd']
+// 16.js:290 (4) ['a', 'b', 'c', 'd']
+// 16.js:292 (3) ['a', 'b', 'c']
+// 16.js:293 (3) ['a', 'b', 'c']
+
 //-------------------------------------------------------------------------------
