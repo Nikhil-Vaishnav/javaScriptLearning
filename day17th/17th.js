@@ -37,3 +37,12 @@
 // }
 
 // -----------------------------------------------------------------------------------------------
+
+// Print the table of 5
+// let n = prompt("Enter the number for you want the table")
+// n = parseInt(n); /*used to convert the string to intiger value*/
+// for(let i=n; i<=n*10; i=i+n){
+//     console.log(i);
+// }
+
+// -----------------------------------------------------------------------------------------------
