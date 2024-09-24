@@ -75,3 +75,21 @@
 //     i--;
 // }
 // -----------------------------------------------------------------------------------------------
+
+// Movie gussing
+
+// let favMovie ="Avatar";
+
+// let guess = prompt("Enter the any movie name");
+
+// while((guess != favMovie) && (guess != 'quit')){
+//     // console.log("wrong Movie");
+//      guess = prompt("Try again!");
+
+// }
+// if(guess == favMovie){
+//     console.log("Your guess is correct");
+// }
+// -----------------------------------------------------------------------------------------------
+
+
