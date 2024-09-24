@@ -105,3 +105,13 @@
 // console.log("we used the break for the stopping at the print to 4");\
 
 // -----------------------------------------------------------------------------------------------
+
+// loop with arry 
+
+// let fruits =["Mango","Apple","Banana","Orange","Litchi"]
+
+// for(let i=0; i<fruits.length; i++){
+//     console.log(i , fruits[i]);
+// }
+// -----------------------------------------------------------------------------------------------
+
