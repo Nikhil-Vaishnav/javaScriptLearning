@@ -108,7 +108,7 @@
 
 // loop with arry 
 
-// let fruits =["Mango","Apple","Banana","Orange","Litchi"]
+// let fruits =["Mango","Apple","Banana","Orange","Litchi"];
 
 // for(let i=0; i<fruits.length; i++){
 //     console.log(i , fruits[i]);
@@ -128,3 +128,16 @@
 
 // -----------------------------------------------------------------------------------------------
 
+// for of loop.
+
+// let fruits =["Mango","Apple","Banana","Orange","Litchi"];
+
+// for (i of fruits){
+//     console.log(i);
+// }
+
+// for (char of "NIKHIL"){
+//     console.log(char);
+// }
+
+// -----------------------------------------------------------------------------------------------
