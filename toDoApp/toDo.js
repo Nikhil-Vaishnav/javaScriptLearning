@@ -17,7 +17,7 @@ if(req == "list") {
     }
     console.log("-----------");
 }
-else if(req == "add"){
+else if(req == "add"){ 
     let task = prompt("Please enter the task you want to add");
     toDo.push(task);
     console.log("task added");
