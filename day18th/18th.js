@@ -72,3 +72,30 @@
 
 // output {age: '22', year: '3rd'}
 // --------------------------------------------------------------------
+
+// Nested objects or we can say Objects of Objects.
+
+let studentsInfo =
+{  
+    Naman: 
+        {
+        age: "20",
+        year: "3rd", 
+        },
+    Nikhil: 
+        {
+        age: "22",
+        year: "3rd",
+        },
+    Rehan: 
+        {
+        age: "20",  
+        year: "3rd",
+        },
+    Omprakash: 
+        {
+        age: "22",
+        year: "3rd",
+        },
+};
+// --------------------------------------------------------------------
