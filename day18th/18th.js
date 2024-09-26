@@ -26,3 +26,19 @@
 
 // --------------------------------------------------------------------
 
+// How to GetValue from the literals .
+
+// let student1 = {
+//         name: "Nikhil",
+//         age: "22",
+//         year: "3rd"
+//     };
+
+    // how to get only age info from whole object.
+
+    // syntax
+    // obj["key"]
+
+    // student1["name"]
+    // student1.name
+// --------------------------------------------------------------------
