@@ -42,3 +42,33 @@
     // student1["name"]
     // student1.name
 // --------------------------------------------------------------------
+
+// How to Add/Update value in literals.
+
+// let student1 = {
+//         name: "Nikhil",
+//         age: "22",
+//         year: "3rd"
+//     };
+
+    // To update or add the value we sipmly us the
+    // obj.key = "add"
+
+    // student1.name="Om";
+
+// --------------------------------------------------------------------
+
+// to delete object
+
+// we can use 
+
+// let student1 = {
+//         name: "Nikhil",
+//         age: "22",
+//         year: "3rd"
+//     };
+// // syntax 
+// delete student1.name;
+
+// output {age: '22', year: '3rd'}
+// --------------------------------------------------------------------
