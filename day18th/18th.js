@@ -138,10 +138,13 @@ while(true){
         console.log("Better luck Next Time..");
         break;
     }
-    if(guss ==randomNO){
+    if(guss ==randomNO)
+    {
         console.log("You Won..",randomNO);
         break;
     }
-    if{
+    else 
+    {
         guss=prompt("try again..");
     }
+}
