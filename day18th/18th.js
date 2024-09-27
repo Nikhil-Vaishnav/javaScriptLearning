@@ -127,3 +127,21 @@
 //  Math.floor(Math.random()*10)+1;
 // console.log(Math.floor(Math.random()*6)+1);
 // --------------------------------------------------------------------
+ 
+const max= prompt("Enter the no.");
+const randomNO = Math.floor(Math.random()*max)+1;
+// console.log(Math.floor(Math.random()*max)+1);
+let guss=prompt("Guss the number");
+
+while(true){
+    if(guss =="quit"){
+        console.log("Better luck Next Time..");
+        break;
+    }
+    if(guss ==randomNO){
+        console.log("You Won..",randomNO);
+        break;
+    }
+    if{
+        guss=prompt("try again..");
+    }
