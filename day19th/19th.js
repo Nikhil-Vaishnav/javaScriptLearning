@@ -73,7 +73,7 @@
 // function calSum(a,b){
 //     // let sum = a+b; //Function Scope
 //     console.log(sum);
-//     // return (a+b);
+//     
 // }
 
 // calSum(1,2);
@@ -83,12 +83,25 @@
 
 // Block scope 
 
-// function sum(a,b){
-//     sum= a+b;
-//     console.log(sum); //we can only print inside the block.
-    
+// for(let i=1; i<=5;i++){
+//     console.log(i); //block scope.  
+//     // It only print the inside the block not the out side of the block
 // }
-// // we can not print out side of the block.
-// sum(1,3);
+// -------------------------------------------------------------------------------------
+
+// Laxilcal Functions
+
+// function outerFunc(){
+//     let x = 5;
+//     let y = 6;
+//     function innerFunc(){
+//         console.log(x);
+//         console.log(y);
+//     }
+//     innerFunc();
+// }
+
+// console.log(outerFunc());
 
 // -------------------------------------------------------------------------------------
+
