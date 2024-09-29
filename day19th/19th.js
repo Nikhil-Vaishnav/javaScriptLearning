@@ -104,4 +104,23 @@
 // console.log(outerFunc());
 
 // -------------------------------------------------------------------------------------
+//  Practice Qs 
+
+// let greet ="Hello";
+
+// function changeGreet(){
+//     let greet= "namaste";
+//     console.log(greet);
+
+//     function innerGreet(){
+//     console.log(greet); //laxical scope;
+//     }
+//     innerGreet();
+// }
+
+// console.log(greet);
+// changeGreet();
+
+// -------------------------------------------------------------------------------------
+
 
