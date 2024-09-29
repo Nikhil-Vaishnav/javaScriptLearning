@@ -80,3 +80,15 @@
 // console.log(sum);
 
 // -------------------------------------------------------------------------------------
+
+// Block scope 
+
+// function sum(a,b){
+//     sum= a+b;
+//     console.log(sum); //we can only print inside the block.
+    
+// }
+// // we can not print out side of the block.
+// sum(1,3);
+
+// -------------------------------------------------------------------------------------
