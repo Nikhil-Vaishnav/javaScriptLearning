@@ -129,6 +129,22 @@
 //     return(a+b);
 // }
 // console.log(sum(1,2));
+
 // -------------------------------------------------------------------------------------
 
 
+// Higher Oreder Function
+
+// function multipleCall(func,n)
+// {
+//     for(let i =1; i<=n; i++){
+//         func();      
+//     }                                                                                                       
+// }
+// let greet = function(){
+//     console.log("Hello");
+// }   
+
+
+// multipleCall(greet,5);
+// -------------------------------------------------------------------------------------
