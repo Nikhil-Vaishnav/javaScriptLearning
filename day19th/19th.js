@@ -148,3 +148,14 @@
 
 // multipleCall(greet,5);
 // -------------------------------------------------------------------------------------
+
+// Higher Oreder Function (return)
+
+let odd = function(n){
+    console.log(!(n%2 == 0))
+}
+
+let even = function(n){
+    console.log(n%2 == 0)
+}
+
