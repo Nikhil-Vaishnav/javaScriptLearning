@@ -53,3 +53,8 @@
 // }
 // console.log("Nikhil Vaishnav");
 // -------------------------------------------------------------------------------------
+
+// Arrow fucnction
+//  const sum = (a,b) => {
+//     console.log(a+b); 
+//  }
