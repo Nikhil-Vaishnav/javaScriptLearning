@@ -115,3 +115,27 @@
 // console.log(id);
 // clearInterval(id); // to stop the call
 // -------------------------------------------------------------------------------------
+
+// preactice Qs. 
+// write an arrow function that returns the square of a number 'n'.
+
+//  const number = (n) => (
+//     n*n
+//  );
+
+// -----------------------------------------------------------------
+
+// Write a fucnction that prints "Hello World" 5 times at the interval of 2s each.
+
+// let id = setInterval((n) => {
+//    console.log("Hello World");
+    
+// }, 2000);
+
+// setTimeout((n) => {
+//     clearInterval(id)
+//    console.log("Task compleated");  
+//  }, 10000);
+
+// -----------------------------------------------------------------
+// -----------------------------------------------------------------
