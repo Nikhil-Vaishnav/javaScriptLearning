@@ -59,7 +59,7 @@
 //     console.log(a+b); 
 //  }
 // -------------------------------
-// const hello = () =>{
+// const hello = () =>{  // not needed to write any thing in () incase of single arrgumenst.
 //     console.log("Hello Nikhil");
 // }
 // -------------------------------------------------------------------------------------
