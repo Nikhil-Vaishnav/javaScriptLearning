@@ -78,11 +78,40 @@
 // );
 // -------------------------------------------------------------------------------------
 
-// setTimeOut function
+// setTimeout function
 
+//syntax:
+// setTimeout(function,time);
 // console.log("Hii");
 
 // setTimeout(()=>{
 //     console.log("From Nikhil..");
 // },3000);
+// -------------------------------------------------------------------------------------
+
+//setInterval function
+
+//syntax:
+// setInterval(function,time);
+// onsole.log("Hii");
+
+// setInterval(() => {
+//     console.log("from Nikhil..");
+// },2000);
+// ----------------------------------
+
+
+// console.log("Hii");
+
+// let  id =setInterval(() => {
+//     console.log("from Nikhil..");
+// },2000);
+
+// let  id2 =setInterval(() => {
+//     console.log("from Nikhil..");
+// },3000);
+
+// console.log(id);
+// console.log(id);
+// clearInterval(id); // to stop the call
 // -------------------------------------------------------------------------------------
