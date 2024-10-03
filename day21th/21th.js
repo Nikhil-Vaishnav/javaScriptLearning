@@ -78,3 +78,18 @@
 //     return el.marks / 10;
 // });
 // --------------------------------------------------------------
+
+// Filter function
+
+//Syntax:
+// let newArr = arr.filter(some function definiton or name);
+
+// let num = [1,2,3,4,5,6,7,8,9,10];
+
+// let ans = num.filter((el)=>{ // it print the arry if the condtion is true.
+//     return el % 2 == 0;
+// });
+
+//output - (5) [2, 4, 6, 8, 10]
+
+// --------------------------------------------------------------
