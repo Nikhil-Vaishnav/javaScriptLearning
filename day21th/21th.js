@@ -51,3 +51,30 @@
 //     console.log(student.age);
 // })
 // --------------------------------------------------------------
+
+// Map function 
+
+//Syntax:
+// let newArr = arr.map(some function definiton or name);
+
+
+// --------------------------------------------------------------
+// let student = [
+//          {
+//         name: "Nikhil",
+//         marks:  22,
+//     },
+//     {
+//         name: "Rehan",
+//         marks:  20,
+//     },
+//     {
+//         name: "Omprakash",
+//         marks:  22,
+//     },
+// ];
+
+// let gpa = student.map((el)=>{
+//     return el.marks / 10;
+// });
+// --------------------------------------------------------------
