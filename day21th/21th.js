@@ -110,5 +110,8 @@
 //     return res+el
 // }
 // );
+
+
+//It is mostsly used for the sum of sum of whole arry.
 // --------------------------------------------------------------
 
