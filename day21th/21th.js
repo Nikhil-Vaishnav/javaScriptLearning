@@ -93,3 +93,22 @@
 //output - (5) [2, 4, 6, 8, 10]
 
 // --------------------------------------------------------------
+
+// Reduce Method
+
+//syntax- arr.reduce(reducer function with 2 variables for (accumulator,element));
+// let num = [1,2,3,4];
+// let finalValue = num.reduce((res,el)=>(res+el));
+
+// output- 10        
+
+// -------------------------------------------------
+
+// let num = [1,2,3,4];
+// let finalValue = num.reduce((res,el)=> {  //it has (accumulator,elemant)
+//     console.log(res,el);
+//     return res+el
+// }
+// );
+// --------------------------------------------------------------
+
