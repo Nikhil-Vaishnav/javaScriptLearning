@@ -184,7 +184,8 @@
 let name = ["Nikhil","OM","Rehan","Darshan","Jay","Dev","Som"];
 
 let [winner, runnerUp, secondRunnerUp, ...others] = name;
-console.log(`${"winner"}  winner);
+// console.log(`${"winner"}winner);
+console.log(winner);
 console.log(runnerUp);
 console.log(secondRunnerUp);
-console.log (...others);
+console.log (others);//it prints all the other due to "...other".
