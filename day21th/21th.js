@@ -125,4 +125,6 @@
 // //output -5
 // console.log(sum(2)); // it will add with deafult value. 
 // //output -7
+
+//note- we cannot give the first value default .ex (a=3, b);
 // --------------------------------------------------------------
