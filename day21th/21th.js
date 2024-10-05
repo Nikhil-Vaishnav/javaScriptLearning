@@ -174,4 +174,17 @@
 // let dataCopy = {...data, id: 1234};
 // --------------------------------------------------------------
 
+//Rest 
+// It allows a function to take an indefinite  number of argument  and  bundle  them in an arry.
+//oppsite of Spread function.
 
+
+// --------------------------------------------------------------
+// Destructuring 
+let name = ["Nikhil","OM","Rehan","Darshan","Jay","Dev","Som"];
+
+let [winner, runnerUp, secondRunnerUp, ...others] = name;
+console.log(`${"winner"}  winner);
+console.log(runnerUp);
+console.log(secondRunnerUp);
+console.log (...others);
