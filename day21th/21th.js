@@ -181,11 +181,32 @@
 
 // --------------------------------------------------------------
 // Destructuring 
-let name = ["Nikhil","OM","Rehan","Darshan","Jay","Dev","Som"];
+// let names = ["Nikhil","OM","Rehan","Darshan","Jay","Dev","Som"];
 
-let [winner, runnerUp, secondRunnerUp, ...others] = name;
-// console.log(`${"winner"}winner);
-console.log(winner);
-console.log(runnerUp);
-console.log(secondRunnerUp);
-console.log (others);//it prints all the other due to "...other".
+// let [winner, runnerUp, secondRunnerUp, ...others] = names;
+// // console.log(`${"winner"}winner);
+// console.log(winner);
+// console.log(runnerUp);
+// console.log(secondRunnerUp);
+// console.log (others);//it prints all the other due to "...other".
+// --------------------------------------------------------------
+
+// Destructuring in Objects.
+
+// let studenDetails = {
+//     name:"Nikhil",
+//     class:12,
+//     age:17,
+//     rollNo:21,
+//     city:"Bali"
+// };
+// //  now we want to print only the age name and rollNo of the student then,
+
+// let { name:usersName, rollNo:newRoll, city="Udaipur"} = studenDetails;
+// console.log(usersName);
+// console.log(newRoll);
+// console.log(city);//in case of a student do not fill the city opiton than by default Udaipur will be printed,
+
+// --------------------------------------------------------------
+                        //   END 
+// --------------------------------------------------------------
