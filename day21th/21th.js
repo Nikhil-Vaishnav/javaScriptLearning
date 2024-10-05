@@ -128,3 +128,26 @@
 
 //note- we cannot give the first value default .ex (a=3, b);
 // --------------------------------------------------------------
+
+// Spread
+// syntax-  (...abc);
+
+// let arr =[1,2,3,4,5,6];
+// console.log(arr);
+// //output [1, 2, 3, 4, 5, 6]
+
+// //where as using spread 
+// console.log(...arr);
+// //output -1 2 3 4 5 6  //we get spreated value for it.
+
+// console.log("NIKHIL");
+// //output-NIKHIL
+
+// console.log(..."NIKHIL");
+// // output -N I K H I L
+// --------------------------------------------------------------
+
+
+
+
+
