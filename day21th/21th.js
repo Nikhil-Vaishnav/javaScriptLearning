@@ -115,3 +115,14 @@
 //It is mostsly used for the sum of sum of whole arry.
 // --------------------------------------------------------------
 
+//Default Perameters
+
+// function sum (a, b=5){
+//     return a + b;
+// }
+
+// console.log(sum(2,3)); //it will add with given values.
+// //output -5
+// console.log(sum(2)); // it will add with deafult value. 
+// //output -7
+// --------------------------------------------------------------
