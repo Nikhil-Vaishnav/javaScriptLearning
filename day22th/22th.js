@@ -67,7 +67,18 @@ let heading = document.querySelector('h1');//for selectin the h1.
 heading.innerHTML = `<u>${heading.innerText}<u>`;//it will put under line under h1.
 //----------------------------------------------------------------------------
 
+// Manipulating Attributes 
+// ex  id, class, style, img, src.
+//this is also known as getters and setters.
 
+// Obj.getAttribute(attr)
 
+let img = document.querySelector('img');
+// console.dir(document.querySelector('img'));
+console.log(img);
+
+// console.log(img.getAttribute('id'));// to the current value for the id,
+// img.setAttribute('id', 'spider');// it will assing a new name for the id.
+/*note - it will damge our CSS due to changed in the id name through setAttribute so think befor you change it.*/
 
 
