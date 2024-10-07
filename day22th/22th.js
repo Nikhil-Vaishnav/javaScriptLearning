@@ -45,13 +45,13 @@
 
 // document.querySelectorAll("p");//Selects all p elements
 
-console.dir(document.querySelector('h1'));
-console.dir(document.querySelector("#descripton"));
-console.dir(document.querySelector(".oldImg"));
-// this are used for single element .
+// console.dir(document.querySelector('h1'));
+// console.dir(document.querySelector("#descripton"));
+// console.dir(document.querySelector(".oldImg"));
+// // this are used for single element .
 
 
-console.dir(document.querySelectorAll("div a"));//it is used for selectin all.
+// console.dir(document.querySelectorAll("div a"));//it is used for selectin all.
 //----------------------------------------------------------------------------
 
 // Using Properties & Methods
@@ -62,9 +62,9 @@ console.dir(document.querySelectorAll("div a"));//it is used for selectin all.
 
 // innerHtml - Show the full markup.
 
-let heading = document.querySelector('h1');//for selectin the h1.
+// let heading = document.querySelector('h1');//for selectin the h1.
 
-heading.innerHTML = `<u>${heading.innerText}<u>`;//it will put under line under h1.
+// heading.innerHTML = `<u>${heading.innerText}<u>`;//it will put under line under h1.
 //----------------------------------------------------------------------------
 
 // Manipulating Attributes 
@@ -73,12 +73,43 @@ heading.innerHTML = `<u>${heading.innerText}<u>`;//it will put under line under 
 
 // Obj.getAttribute(attr)
 
-let img = document.querySelector('img');
+// let img = document.querySelector('img');
 // console.dir(document.querySelector('img'));
-console.log(img);
+// console.log(img);
 
 // console.log(img.getAttribute('id'));// to the current value for the id,
 // img.setAttribute('id', 'spider');// it will assing a new name for the id.
-/*note - it will damge our CSS due to changed in the id name through setAttribute so think befor you change it.*/
+
+/*note- it will damge our CSS due to changed in the id name through setAttribute so think befor you change it.*/
+
+//----------------------------------------------------------------------------
+
+//Manipulating style- style property.
+
+// how to check styling property?
+// let img = document.querySelector('img');
 
 
+// console.dir(img);
+// console.log(img.style);//for checking styling properties.
+
+//let chang the style of the heading.
+
+// let heading = document.querySelector('h1');
+
+// console.log(heading.style);// to check the style property.
+
+// heading.style.color = 'Red';
+// heading.style.backgroundColor = 'blue';
+
+// let links = document.querySelectorAll(".box  a");
+
+// for(let i = 0; i < links.length; i++){
+//     links[i].style.color = "yellow";
+// }
+
+// for(links of links){
+//     links.style.color = "red";
+// }
+
+/* note - we not used this for stylig frequently CSS is the best for styling*/
