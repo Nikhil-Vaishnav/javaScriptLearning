@@ -54,6 +54,20 @@ console.dir(document.querySelector(".oldImg"));
 console.dir(document.querySelectorAll("div a"));//it is used for selectin all.
 //----------------------------------------------------------------------------
 
+// Using Properties & Methods
+
+//innerText- Shows the visible text contained in a node.
+
+// textContent- Show all the full text.
+
+// innerHtml - Show the full markup.
+
+let heading = document.querySelector('h1');//for selectin the h1.
+
+heading.innerHTML = `<u>${heading.innerText}<u>`;//it will put under line under h1.
+//----------------------------------------------------------------------------
+
+
 
 
 
