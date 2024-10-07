@@ -36,4 +36,24 @@
 // same as Classname 
 //----------------------------------------------------------------------------
 
+// Query selectors- allows us to use any CSS selector.
+
+// // Syntax 
+// document.querySelector('p'); //Selectors first p element
+// document.querySelector('#myId');//Selects first element with id=myId
+// document.querySelector('.myClass');//Selects all p element with class = myClass
+
+// document.querySelectorAll("p");//Selects all p elements
+
+console.dir(document.querySelector('h1'));
+console.dir(document.querySelector("#descripton"));
+console.dir(document.querySelector(".oldImg"));
+// this are used for single element .
+
+
+console.dir(document.querySelectorAll("div a"));//it is used for selectin all.
 //----------------------------------------------------------------------------
+
+
+
+
