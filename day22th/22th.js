@@ -93,6 +93,7 @@
 // console.dir(img);
 // console.log(img.style);//for checking styling properties.
 
+
 //let chang the style of the heading.
 
 // let heading = document.querySelector('h1');
@@ -113,3 +114,18 @@
 // }
 
 /* note - we not used this for stylig frequently CSS is the best for styling*/
+
+//--------------------------------------------
+
+//using classList
+
+// Obj.classList
+
+let img = document.querySelector('img');
+console.log(img.classList);//for finding the class of the object. 
+
+let heading = document.querySelector('h1');
+
+heading.classList.add("red");
+console.log(heading.classList);
+

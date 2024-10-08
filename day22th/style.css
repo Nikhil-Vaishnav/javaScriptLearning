@@ -13,12 +13,18 @@ border-radius: solid black 3px;
 body{
     font-family: Arial;
 }
+.red{
+    color: red;
+} 
+
 
 #spider2 {
     width: 35%;
     border-radius: 10px;
     border: 10px solid black;
  }
+
+
 
 .box {
 border: 0.25px solid black;
