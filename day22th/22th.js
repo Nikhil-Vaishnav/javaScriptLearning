@@ -202,3 +202,27 @@
 //append(element)
 //prepend(element)
 //insertAdjecent(where, element)
+
+//--------------------------------
+
+//appendChild()
+// document.createElement('p');
+// let newP = document.createElement('p');
+
+// console.log(newP);
+// newP.innerText = "Hi its wtiten form the javaScript.";
+
+
+// let body = document.querySelector('body');
+
+// body.appendChild(newP);//it will print at bottom of the page due to body
+
+// let box = document.querySelector('.box');
+
+// let btn = document.createElement('button');
+
+// btn.innerText = "Click me!";
+
+// console.log(box.appendChild(btn));// created the button for the box .
+//----------------------------------------------------------------------------
+
