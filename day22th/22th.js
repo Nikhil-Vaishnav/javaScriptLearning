@@ -154,10 +154,39 @@
 // If a class is presnt in that case it will remove the the that class and return fasle.
 //IF a class is not presnt in that case it will add that class and print True.
 
-let heading = document.querySelector('h1');
+// let heading = document.querySelector('h1');
 
-heading.classList.add("red");
-console.log(heading.classList);
-console.log(heading.classList.toggle('red'));// It will print false becaue the class is present.
+// heading.classList.add("red");
+// console.log(heading.classList);
+// console.log(heading.classList.toggle('red'));// It will print false becaue the class is present.
 
-console.log(heading.classList.toggle('green'));// It will print true becaue the class is present.
+// console.log(heading.classList.toggle('green'));// It will print true becaue the class is present.
+//----------------------------------------------------------------------------
+
+// Navigation 
+
+//parentElement
+//children
+//previousElementSibling/ nextElementSibing
+
+/*note- This used find the all of three form to html for better navigation */
+
+//prarentElement
+
+// let h4 = document.querySelector('h4');
+//  console.log(h4.parentElement);
+
+//  let box = document.querySelector('.box');
+//  console.log(box.children); 
+ // or we call also use the childElenemtCount for the count of total children present.
+
+//--------------------------------------------
+
+ //previousElementSibling/ nextElementSibing
+
+
+//  let ul = document.querySelector("ul");
+
+//  console.log(ul.children[1].previousElementSibling);//for the pervious
+
+//  console.log(ul.children[1].nextElementSibling);//for next
