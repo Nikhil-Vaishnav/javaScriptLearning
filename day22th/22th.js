@@ -149,6 +149,15 @@
 // output - True 
 
 //--------------------------------------------
+// toggle 
+// the main use of the toggle is that it firt checks the whether the class is prenst or not.
+// If a class is presnt in that case it will remove the the that class and return fasle.
+//IF a class is not presnt in that case it will add that class and print True.
 
+let heading = document.querySelector('h1');
 
+heading.classList.add("red");
+console.log(heading.classList);
+console.log(heading.classList.toggle('red'));// It will print false becaue the class is present.
 
+console.log(heading.classList.toggle('green'));// It will print true becaue the class is present.
