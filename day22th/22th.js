@@ -191,3 +191,14 @@
 
 //  console.log(ul.children[1].nextElementSibling);//for next
 //----------------------------------------------------------------------------
+
+// AddingElement on page
+
+//document.createElement('p');
+
+//afte creating the element know we want to add it into main body for it we will used further option given  blow.
+
+//appendChild(element)
+//append(element)
+//prepend(element)
+//insertAdjecent(where, element)
