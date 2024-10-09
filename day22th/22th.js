@@ -117,15 +117,38 @@
 
 //--------------------------------------------
 
-//using classList
+//adding using classList
 
 // Obj.classList
 
-let img = document.querySelector('img');
-console.log(img.classList);//for finding the class of the object. 
+// let img = document.querySelector('img');
+// console.log(img.classList);//for finding the class of the object. 
 
-let heading = document.querySelector('h1');
+// let heading = document.querySelector('h1');
 
-heading.classList.add("red");
-console.log(heading.classList);
+// heading.classList.add("red");
+// console.log(heading.classList);
+//--------------------------------------------
+//removing using classList
+
+// let heading = document.querySelector('h1');
+
+// heading.classList.remove("red");
+// console.log(heading.classList);
+
+//--------------------------------------------
+
+//check using classList
+//to check whether the class is avilable or not.
+// let heading = document.querySelector('h1');
+
+// heading.classList.add("red");
+// console.log(heading.classList);
+// console.log(heading.classList.contains('red'));
+
+// output - True 
+
+//--------------------------------------------
+
+
 
