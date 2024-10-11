@@ -206,24 +206,24 @@
 //--------------------------------
 
 //appendChild()
-document.createElement('p');
-let newP = document.createElement('p');
+// document.createElement('p');
+// let newP = document.createElement('p');
 
 // console.log(newP);
 // newP.innerText = "Hi its wtiten form the javaScript.";
 
 
-// let newP = document.querySelector('body');
+// let newP = document.querySelector('p');
 
 // newP.appendChild(newP);//it will print at bottom of the page due to body
 
-let box = document.querySelector('.box');
+// let box = document.querySelector('.box');
 
-let btn = document.createElement('button');
+// let btn = document.createElement('button');
 
-btn.innerText = "Click me!";
+// btn.innerText = "Click me!";
 
-console.log(box.appendChild(btn));// created the button for the box .
+// console.log(box.appendChild(btn));// created the button for the box .
 //----------------------------------------------------------------------------
 
 // append - by using it we can directly make changes or edits into appendChild .
@@ -236,4 +236,20 @@ console.log(box.appendChild(btn));// created the button for the box .
 
 
 
-console.log(newP.append(btn));
+// console.log(newP.append(btn));
+document.createElement('p');
+// let newP = document.createElement('p');
+let newP=document.querySelector('p');
+let box = document.querySelector('.box');
+
+let btn = document.createElement('button');
+
+btn.innerText = "Click me!";
+
+// document.createElement('button');
+// let btn = document.createElement('button');
+// btn.innerText = "click";
+
+newP.appendChild(btn);
+
+
