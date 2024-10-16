@@ -251,7 +251,7 @@ btn.innerText = "Click me!";
 // btn.innerText = "click";
 
 newP.appendChild(btn);
-newP.appendChild(btn);
+// newP.appendChild(btn);
 
 
 
