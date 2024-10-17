@@ -225,6 +225,7 @@
 
 // console.log(box.appendChild(btn));// created the button for the box .
 //----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
 
 // append - by using it we can directly make changes or edits into appendChild .
 
@@ -237,21 +238,42 @@
 
 
 // console.log(newP.append(btn));
-document.createElement('p');
+// document.createElement('p');
 // let newP = document.createElement('p');
-let newP=document.querySelector('p');
-let box = document.querySelector('.box');
+// let newP=document.querySelector('p');
+// let box = document.querySelector('.box');
 
-let btn = document.createElement('button');
+// let btn = document.createElement('button');
 
-btn.innerText = "Click me!";
+// btn.innerText = "Click me!";
 
 // document.createElement('button');
 // let btn = document.createElement('button');
 // btn.innerText = "click";
 
-newP.appendChild(btn);
+// newP.appendChild(btn);
 // newP.appendChild(btn);
 
 
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
 
+document.createElement('p');
+let newP = document.createElement('p');
+newP.innerText = "hello, I am Spider..";
+console.dir(newP);
+
+/* now we are using appendChild(element)*/
+// let body = document.querySelector('body');/*body is parent for it and newP is child.*/
+// body.appendChild(newP);/*it append at the bottom of the body.*/.
+
+/*now we to appnend the child in the box */
+
+let box = document.querySelector('.box');
+// box.appendChild(newP);/*it will be print at the bottom of the box. */
+
+/*let create a button */
+
+let btn = document.createElement('button');
+btn.innerText = "click me";
+box.appendChild('btn');
