@@ -258,10 +258,10 @@
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
 
-document.createElement('p');
-let newP = document.createElement('p');
-newP.innerText = "hello, I am Spider..";
-console.dir(newP);
+// document.createElement('p');
+// let newP = document.createElement('p');
+// newP.innerText = "hello, I am Spider..";
+// console.dir(newP);
 
 /* now we are using appendChild(element)*/
 // let body = document.querySelector('body');/*body is parent for it and newP is child.*/
@@ -269,11 +269,11 @@ console.dir(newP);
 
 /*now we to appnend the child in the box */
 
-let box = document.querySelector('.box');
+// let box = document.querySelector('.box');
 // box.appendChild(newP);/*it will be print at the bottom of the box. */
 
 /*let create a button */
-
+let box = document.querySelector('.box');
 let btn = document.createElement('button');
 btn.innerText = "click me";
-box.appendChild('btn');
+box.appendChild(btn);
