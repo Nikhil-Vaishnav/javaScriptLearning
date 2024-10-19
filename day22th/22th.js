@@ -273,13 +273,25 @@
 // box.appendChild(newP);/*it will be print at the bottom of the box. */
 
 /*let create a button */
-let box = document.querySelector('.box');
-let btn = document.createElement('button');
-btn.innerText = "click me";
-box.appendChild(btn);
+// let box = document.querySelector('.box');
+// let btn = document.createElement('button');
+// btn.innerText = "click me";
+// box.appendChild(btn);
 
 //----------------------------------------------------------------------------
 
-let newP = document.createElement('p');
-newP.innerText = "hello";
- newP.appendChild(newP);
+// let newP = document.createElement('p');
+// newP.innerText = "hello";
+//  newP.appendChild(newP);
+
+
+//  document.createElement('p');
+// let box = document.querySelector('.box');
+// let newP = document.createElement('p');
+// newP.innerText = "hello, I am Spider..";
+// box.appendChild(newP);
+
+// let btn = document.createElement('button');
+// btn.innerText = "click me..";
+// box.appendChild(btn);
+// //----------------------------------------------------------------------------
