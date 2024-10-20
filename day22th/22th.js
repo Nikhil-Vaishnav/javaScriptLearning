@@ -314,7 +314,50 @@
 // btn.innerText ="clike me..";
 // console.dir(btn);
 
-// let imge = document.querySelector('h2');
+// let imge = document.querySelector('h1');
 
 // imge.appendChild(btn);
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
+
+// append Function - it is used to append any string , text and element also or for edit in alredy exiting .
+// it mostly  used than appendChild.
+// it add the elements at the end.
+
+// document.createElement('p');
+// let newP = document.createElement('p');
+
+// newP.innerText ="I am spider man ..";
+
+// let box = document.querySelector('.box');
+// box.appendChild(newP);/*this is we create an append child*/
+
+// // now we are usin editing the appended function text using append function 
+
+// box.append("some thing new.. ")
+
+
+// / document.createElement('button');
+// let btn = document.createElement('button');
+
+// btn.innerText ="clike me..";
+// console.dir(btn);
+
+// let imge = document.querySelector('img');
+
+// imge.append(btn);
+
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
+
+// prepand(element) it adds the element at the starting.
+
+document.createElement('p');
+let newP = document.createElement('p');
+
+newP.innerText ="I am spider man ..";
+
+let box = document.querySelector('.box');
+
+box.prepend(newP);
 //----------------------------------------------------------------------------
