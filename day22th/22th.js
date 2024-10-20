@@ -295,3 +295,26 @@
 // btn.innerText = "click me..";
 // box.appendChild(btn);
 // //----------------------------------------------------------------------------
+
+// document.createElement('p');
+// let box = document.querySelector('.box');
+// let newP = document.createElement('p');
+// newP.innerText = "hello, I am Spider..";
+// box.appendChild(newP);
+
+// let btn = document.createElement('button');
+// btn.innerText = "click me..";
+// box.appendChild(btn);
+
+//----------------------------------------------------------------------------
+ 
+// document.createElement('button');
+// let btn = document.createElement('button');
+
+// btn.innerText ="clike me..";
+// console.dir(btn);
+
+// let imge = document.querySelector('h2');
+
+// imge.appendChild(btn);
+//----------------------------------------------------------------------------
