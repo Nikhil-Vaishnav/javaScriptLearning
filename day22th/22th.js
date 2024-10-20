@@ -352,12 +352,42 @@
 
 // prepand(element) it adds the element at the starting.
 
-document.createElement('p');
-let newP = document.createElement('p');
+// document.createElement('p');
+// let newP = document.createElement('p');
 
-newP.innerText ="I am spider man ..";
+// newP.innerText ="I am spider man ..";
 
-let box = document.querySelector('.box');
+// let box = document.querySelector('.box');
 
-box.prepend(newP);
+// box.prepend(newP);
+//----------------------------------------------------------------------------
+
+// insertAdjacentElement(positon, element)- this function is used to added the element
+// exactly where we want to insert.
+
+// Parameters
+// position
+// A string representing the position relative to the targetElement; 
+// must match (case-insensitively) one of the following strings:
+
+// 'beforebegin': Before the targetElement itself.
+// 'afterbegin': Just inside the targetElement, before its first child.
+// 'beforeend': Just inside the targetElement, after its last child.
+// 'afterend': After the targetElement itself.
+
+// document.createElement('button');
+// let btn = document.createElement('button');
+
+// btn.innerText = "click me..";
+// document.querySelector('p');
+
+// let p = document.querySelector('p');
+
+// p.insertAdjacentElement('beforebegin',btn);
+
+// p.insertAdjacentElement('afterbegin',btn);
+
+// p.insertAdjacentElement('beforeend',btn);
+
+// p.insertAdjacentElement('afterend',btn);
 //----------------------------------------------------------------------------
