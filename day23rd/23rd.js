@@ -59,8 +59,30 @@
 
 // EventsLister for the Elements 
 
-let p = document.querySelector('p');
+// let p = document.querySelector('p');
 
-p.addEventListener("click", function(){
-    console.log("parah was clicked");
-});
+// p.addEventListener("click", function(){
+//     console.log("parah was clicked");
+// });
+
+// -------------------------------------------------------------------------------
+
+// this function 
+// let btn = document.querySelector('button');
+// // let bt = document.querySelector('button');
+
+// let p = document.querySelector('p');
+// let h3 = document.querySelector('h3');
+
+
+// function  changeColor(){
+//   console.log(this.innerText);
+//   this.style.backgroundColor = "blue";
+// };
+
+// btn.addEventListener("click",changeColor);
+// // bt.addEventListener("click",changeColor);
+
+// p.addEventListener("click",changeColor);
+// h3.addEventListener("click",changeColor);
+// -------------------------------------------------------------------------------
