@@ -39,20 +39,28 @@
 // btn.onclick=sayhello;
 // -------------------------------------------------------------------------------
 // Event Listener - used to print the multiple function .
-document.querySelectorAll('button');
-let btn = document.querySelectorAll('button');
+// document.querySelectorAll('button');
+// let btn = document.querySelectorAll('button');
 // element.addEventListener(event,callback);
 
-for(btn of btn){
-    btn.addEventListener("click",hello);
-    btn.addEventListener("dblclick",Names);
-};
+// for(btn of btn){
+//     btn.addEventListener("click",hello);
+//     btn.addEventListener("dblclick",Names);
+// };
 
-function hello(){
-    console.log("hellow everyone..");
-};
+// function hello(){
+//     console.log("hellow everyone..");
+// };
 
-function Names(){
-    console.log("Nikhil Vaishnav");
-};
+// function Names(){
+//     console.log("Nikhil Vaishnav");
+// };
 // -------------------------------------------------------------------------------
+
+// EventsLister for the Elements 
+
+let p = document.querySelector('p');
+
+p.addEventListener("click", function(){
+    console.log("parah was clicked");
+});
