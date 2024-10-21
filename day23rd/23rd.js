@@ -23,7 +23,7 @@
 //     alert("hello"); 
 // }
 // btn.onclick=sayhello;
-// ------------------------------------------------- ------------------------------
+// -------------------------------------------------------------------------------
 
 // onmouseenter(when mouse enters an elemnt)
 
@@ -37,4 +37,22 @@
 //     console.log("hello"); 
 // }
 // btn.onclick=sayhello;
-// ------------------------------------------------- ------------------------------
+// -------------------------------------------------------------------------------
+// Event Listener - used to print the multiple function .
+document.querySelectorAll('button');
+let btn = document.querySelectorAll('button');
+// element.addEventListener(event,callback);
+
+for(btn of btn){
+    btn.addEventListener("click",hello);
+    btn.addEventListener("dblclick",Names);
+};
+
+function hello(){
+    console.log("hellow everyone..");
+};
+
+function Names(){
+    console.log("Nikhil Vaishnav");
+};
+// -------------------------------------------------------------------------------
