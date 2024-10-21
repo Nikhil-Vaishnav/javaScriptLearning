@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+div{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* text-decoration: none; */
+    justify-items: baseline;
+    /* padding-top: 100px; */
+
+}
