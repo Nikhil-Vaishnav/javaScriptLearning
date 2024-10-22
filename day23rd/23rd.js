@@ -86,3 +86,18 @@
 // p.addEventListener("click",changeColor);
 // h3.addEventListener("click",changeColor);
 // -------------------------------------------------------------------------------
+
+// KeyboardEvent 
+
+let btn = document.querySelector('button');
+btn.addEventListener("click",function(event){
+    console.log(event);
+    console.log("button clicked");
+});
+
+let input = document.querySelector('input');
+input.addEventListener("keyup",function(){
+    console.log("Key was relesed");
+});/*this keyup will waite for the key relesed */
+
+// KeyboardEvent - it shows the  events -code and key. in dir file.
