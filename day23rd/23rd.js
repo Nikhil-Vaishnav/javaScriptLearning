@@ -97,6 +97,8 @@ btn.addEventListener("click",function(event){
 
 let input = document.querySelector('input');
 input.addEventListener("keyup",function(){
+    console.log(event.key);/*it will show the key */
+    console.log(event.code);/*it will show the code */
     console.log("Key was relesed");
 });/*this keyup will waite for the key relesed */
 
