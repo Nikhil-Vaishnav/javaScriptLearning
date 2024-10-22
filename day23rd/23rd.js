@@ -150,5 +150,15 @@
 //       console.log(password.value);/*the attrribute "value" will extract the data of password and diplay on console */
 // })
 // -------------------------------------------------------------------------------
+// in this we are using the change evnet to track the small inputs.
 
+// let inp = document.querySelector("#text");
+// let p = document.querySelector("p");
 
+// inp.addEventListener("input",function(){
+//     console.log(inp.value);
+//     p.innerText = inp.value;
+// });
+// -------------------------------------------------------------------------------
+                           //END
+// -------------------------------------------------------------------------------
