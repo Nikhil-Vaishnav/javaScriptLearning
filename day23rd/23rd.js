@@ -89,17 +89,28 @@
 
 // KeyboardEvent 
 
-let btn = document.querySelector('button');
-btn.addEventListener("click",function(event){
-    console.log(event);
-    console.log("button clicked");
-});
+// let btn = document.querySelector('button');
+// btn.addEventListener("click",function(event){
+//     console.log(event);
+//     console.log("button clicked");
+// });
 
-let input = document.querySelector('input');
-input.addEventListener("keyup",function(){
-    console.log(event.key);/*it will show the key */
-    console.log(event.code);/*it will show the code */
-    console.log("Key was relesed");
-});/*this keyup will waite for the key relesed */
+// let input = document.querySelector('input');
+// input.addEventListener("keyup",function(){
+//     console.log(event.key);/*it will show the key */
+//     console.log(event.code);/*it will show the code */
+//     console.log("Key was relesed");
+// });/*this keyup will waite for the key relesed */
 
 // KeyboardEvent - it shows the  events -code and key. in dir file.
+
+// -------------------------------------------------------------------------------
+
+// form js username ones...
+ 
+let form = document.querySelector('form');
+
+form.addEventListener("submit"/*submit is the element to sumbit the form*/,function(event/*it is used for staying of the page*/){
+    event.preventDefault();/*it prevet the page to go on the action */
+    alert("Submited");
+})
