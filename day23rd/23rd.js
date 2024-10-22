@@ -108,9 +108,47 @@
 
 // form js username ones...
  
-let form = document.querySelector('form');
+// let form = document.querySelector('form');
 
-form.addEventListener("submit"/*submit is the element to sumbit the form*/,function(event/*it is used for staying of the page*/){
-    event.preventDefault();/*it prevet the page to go on the action */
-    alert("Submited");
-})
+// form.addEventListener("submit"/*submit is the element to sumbit the form*/,function(event/*it is used for staying of the page*/){
+//     event.preventDefault();/*it prevet the page to go on the action */
+//     alert("Submited");
+// })
+// -------------------------------------------------------------------------------
+
+// Extracting Form Data 
+
+
+// let form = document.querySelector('form');
+
+// form.addEventListener("submit"/*submit is the element to sumbit the form*/,function(event/*it is used for staying of the page*/){
+//     event.preventDefault();/*it prevet the page to go on the action */
+//     alert("Submited");
+
+//     let inp = document.querySelector("#username");
+//     let password = document.querySelector("#password");
+
+//       console.dir(inp);
+//       console.log(inp.value);/*the attrribute "value" will extract the data and diplay in the console */
+//       console.log(password.value);/*the attrribute "value" will extract the data of password and diplay on console */
+// })
+
+
+// --------
+// by using this 
+
+// let form = document.querySelector('form');
+
+// form.addEventListener("submit"/*submit is the element to sumbit the form*/,function(event/*it is used for staying of the page*/){
+//     event.preventDefault();/*it prevet the page to go on the action */
+//     alert("Submited");
+
+//     let username = this.elements[0];
+//     let password = this.elements[1];
+//     //   console.dir(inp);
+//       console.log(inp.value);/*the attrribute "value" will extract the data and diplay in the console */
+//       console.log(password.value);/*the attrribute "value" will extract the data of password and diplay on console */
+// })
+// -------------------------------------------------------------------------------
+
+
