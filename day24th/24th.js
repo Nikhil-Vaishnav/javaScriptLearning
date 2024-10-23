@@ -16,7 +16,7 @@
 // });
 
 /*above code has the problem of the event bubling*/
-// -------------------------------
+// ------------------------------------------------
 
 // resoveld by using the event bubling
 
@@ -36,3 +36,4 @@ li.addEventListener("click",function(event){
     event.stopPropagation();/*it is the method to stop the event bubbling probelem */
     console.log("list was print");
 });
+//----------------------------------------------------------------------------------
