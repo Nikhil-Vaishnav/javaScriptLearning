@@ -9,3 +9,4 @@ btn.addEventListener("click", function(){
     console.log(inp.value);
     inp.value = "";
 })
+
