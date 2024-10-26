@@ -14,7 +14,7 @@ body{
 .btn-container{
     display: flex;
     justify-content: center;
-    margin: 5rem;
+    margin: 1rem;
 }
 
 .red{
@@ -39,4 +39,8 @@ body{
 
 .flash{
     background-color: white;
+}
+
+.userflash{
+    background-color: green;
 }
