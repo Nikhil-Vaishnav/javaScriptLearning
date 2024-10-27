@@ -90,3 +90,4 @@ changeColor("red",1000, ()=>{
 // changeColor("green",1000);
 
 /*so the above nesting too many fuction is called the callback hell problem. */
+ // -------------------------------------------------------------------------
