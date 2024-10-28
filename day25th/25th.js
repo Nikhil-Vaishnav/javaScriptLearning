@@ -70,24 +70,57 @@
 /*this is the complex way to do this */
  // -------------------------------------------------------------------------
 
-h1 = document.querySelector('h1');
+// h1 = document.querySelector('h1');
 
-function changeColor(color, delay,nextColorChange){
-    setTimeout(()=>{
-        h1.style.color = color;
-       if (nextColorChange) nextColorChange();
-    },delay);
-}
+// function changeColor(color, delay,nextColorChange){
+//     setTimeout(()=>{
+//         h1.style.color = color;
+//        if (nextColorChange) nextColorChange();
+//     },delay);
+// }
 
-changeColor("red",1000, ()=>{
-    changeColor("blue",1000,()=>{
-        changeColor("green",1000,()=>{
-            changeColor("yellow",1000); 
-        });
-    });/*we nested each others into the functions */
+// changeColor("red",1000, ()=>{
+//     changeColor("blue",1000,()=>{
+//         changeColor("green",1000,()=>{
+//             changeColor("yellow",1000); 
+//         });
+    // });/*we nested each others into the functions */
 
-});
+// });
 // changeColor("green",1000);
 
 /*so the above nesting too many fuction is called the callback hell problem. */
  // -------------------------------------------------------------------------
+
+
+//  Promises
+
+function saveToData(data, success, failure){
+    let internetSpeed = Math.floor(Math.random()*10)+1;
+    if (internetSpeed >4){
+        success();
+    }else{
+        failure()
+    }
+}
+
+saveToData(
+    "nikhil",
+    () => {
+    console.log("your data was saved");
+    saveToData("hello world", ()=>{
+        console.log("successe2: data2 saved");
+        saveToData("vaishnav",()=>{
+            console.log("successe3: data3 saved")
+        },()=>{
+            console.log("failure3: weak connection");
+        });
+    },()=>{
+        console.log("failure2: weak connection");
+    }
+ );
+},
+() => {
+    console.log("weak connection data not saved");
+
+});
