@@ -95,32 +95,32 @@
 
 //  Promises
 
-function saveToData(data, success, failure){
-    let internetSpeed = Math.floor(Math.random()*10)+1;
-    if (internetSpeed >4){
-        success();
-    }else{
-        failure()
-    }
-}
+// function saveToData(data, success, failure){
+//     let internetSpeed = Math.floor(Math.random()*10)+1;
+//     if (internetSpeed >4){
+//         success();
+//     }else{
+//         failure()
+//     }
+// }
 
-saveToData(
-    "nikhil",
-    () => {
-    console.log("your data was saved");
-    saveToData("hello world", ()=>{
-        console.log("successe2: data2 saved");
-        saveToData("vaishnav",()=>{
-            console.log("successe3: data3 saved")
-        },()=>{
-            console.log("failure3: weak connection");
-        });
-    },()=>{
-        console.log("failure2: weak connection");
-    }
- );
-},
-() => {
-    console.log("weak connection data not saved");
+// saveToData(
+//     "nikhil",
+//     () => {
+//     console.log("your data was saved");
+//     saveToData("hello world", ()=>{
+//         console.log("successe2: data2 saved");
+//         saveToData("vaishnav",()=>{
+//             console.log("successe3: data3 saved")
+//         },()=>{
+//             console.log("failure3: weak connection");
+//         });
+//     },()=>{
+//         console.log("failure2: weak connection");
+//     }
+//  );
+// },
+// () => {
+//     console.log("weak connection data not saved");
 
-});
+// });
