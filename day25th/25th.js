@@ -146,3 +146,30 @@
 
 //     console.log(savetoDb("Nikhil"));
 // -------------------------------------------------------------------------
+
+// Promise uses two method called then() & catch().
+
+// then() - it is get used when a resolved.
+// catch() - it is used when it get rejected.
+
+
+// function savetoDb(data){
+//         return new Promise((resolve, reject)=>{
+//             let internetSpeed = Math.floor(Math.random()*10)+1;
+//             if (internetSpeed >4){
+//                 resolve("data was save");
+//             }else{
+//                 reject("data not saved");
+//             }
+//         });
+//         }
+    
+//          savetoDb("Nikhil")
+//         .then(() => {
+//             console.log("Promise was resolved");
+//         })
+//         .catch(() =>{
+//             console.log("Promise was rejected");
+//         });
+
+        // -------------------------------------------------------------------------
