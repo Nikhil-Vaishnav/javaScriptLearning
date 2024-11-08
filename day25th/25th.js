@@ -171,5 +171,31 @@
 //         .catch(() =>{
 //             console.log("Promise was rejected");
 //         });
+// -------------------------------------------------------------------------
 
-        // -------------------------------------------------------------------------
+// Promise chaining - in which then() are inside a then()
+
+
+// function savetoDb(data){
+//             return new Promise((resolve, reject)=>{
+//                 let internetSpeed = Math.floor(Math.random()*10)+1;
+//                 if (internetSpeed >4){
+//                     resolve("data was save");
+//                 }else{
+//                     reject("data not saved");
+//                 }
+//             });
+//             }
+        
+//              savetoDb("Nikhil")
+//             .then(() => {
+//                 console.log("Promise was resolved");
+//                 savetoDb("Vaishnav")
+//                 .then(() => {
+//                     console.log("promise two 2 was resolved");
+//                 });
+//             })
+//             .catch(() =>{
+//                 console.log("Promise was rejected");
+//             });
+// -------------------------------------------------------------------------
