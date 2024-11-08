@@ -199,3 +199,34 @@
 //                 console.log("Promise was rejected");
 //             });
 // -------------------------------------------------------------------------
+
+// Results and  Error in promises
+
+// function savetoDb(data){
+//     return new Promise((resolve, reject)=>{
+//         let internetSpeed = Math.floor(Math.random()*10)+1;
+//         if (internetSpeed >4){
+//             resolve("data was save");
+//         }else{
+//             reject("data not saved");
+//         }
+//     });
+//     }
+
+//      savetoDb("Nikhil")
+//     .then((result/*it is an argument passed*/) => {
+//         console.log("Promise was resolved");
+//         console.log("resolved by then:",result);
+//         savetoDb("Vaishnav")
+//         .then((result/*it is an argument passed*/) => {
+//             console.log("promise two 2 was resolved");
+//             console.log("resolved by then:",result);
+
+//         });
+//     })
+//     .catch((error/*it is an argument passed*/) =>{
+//         console.log("Promise was rejected");
+//         console.log("error by catch:",error);
+        
+//     });
+// -------------------------------------------------------------------------
