@@ -92,8 +92,7 @@
 /*so the above nesting too many fuction is called the callback hell problem. */
  // -------------------------------------------------------------------------
 
-
-//  Promises
+//  Promises - it represent the evetual complation (or failure) of an asynchoronous opertaion and its resulting value.
 
 // function saveToData(data, success, failure){
 //     let internetSpeed = Math.floor(Math.random()*10)+1;
@@ -126,4 +125,24 @@
 // );
 
 /*this is known as callback hell */
+// -------------------------------------------------------------------------
+
+//  Promises - it represent the evetual complation (or failure) of an asynchoronous opertaion and its resulting value.
+
+// Promise - it is an object
+// resolve and reject
+
+
+// function savetoDb(data){
+//     return new Promise((resolve, reject)=>{
+//         let internetSpeed = Math.floor(Math.random()*10)+1;
+//         if (internetSpeed >4){
+//             resolve("data was save");
+//         }else{
+//             reject("data not saved");
+//         }
+//     });
+//     }
+
+//     console.log(savetoDb("Nikhil"));
 // -------------------------------------------------------------------------
