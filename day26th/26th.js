@@ -141,3 +141,34 @@
 //         console.log("New number = ", a + 3);
 // }
 // -------------------------------------------------------------------------------------------
+
+// JSON 
+
+// accessing data from JSON
+
+// JSON.parse(data) Method - it is used to parse a string data into a JS Object
+
+// let jsonRes = 
+// '{"fact":"Cats are subject to gum disease and to dental caries. They should have their teeth cleaned by the vet or the cat dentist once a year.","length":133}';
+
+// let validRes = JSON.parse(jsonRes);
+// console.log(validRes.fact);
+/*this is mostly used in feacthing api's */
+// -------------------------------------------------------------------------------------------
+
+
+// where as to convert the JS object ot JSON  format we use 
+// JSON.stringify(json) Method 
+// to parse a JS Object data into JSON 
+
+// let student = {
+//     name: "Nikhil",
+//     marks: 63,
+// };
+
+// JSON.stringify(student);
+// console.log(student
+// );
+
+// output - {name: 'Nikhil', marks: 63}
+// -------------------------------------------------------------------------------------------
