@@ -172,3 +172,47 @@
 
 // output - {name: 'Nikhil', marks: 63}
 // -------------------------------------------------------------------------------------------
+// let fetch our first api by using fetch
+
+// let url = "https://catfact.ninja/fact";
+
+// fetch(url)/*let print the reponse of the api*/
+// .then((Response) => {/**fetch method give a promise in return so we are using then and catach method for file handling*/
+//     console.log(Response);
+//     return Response.json()/**this will print the proper data of json formt*/
+// })
+// .then((data) => {
+//     console.log(data.fact);
+// })
+// .catch((error) => {
+//     console.log("Error", error);
+// }); 
+
+// /**This is done by using method chaining*/
+
+// -------------------------------------------------------------------------------------------
+
+let url = "https://catfact.ninja/fact";
+
+fetch(url)/*let print the reponse of the api*/
+.then((Response) => {/**fetch method give a promise in return so we are using then and catach method for file handling*/
+    // console.log(Response);
+    return Response.json()/**this will print the proper data of json formt*/
+})
+.then((data) => {
+    console.log("data1=",data.fact);
+    // return Response.json()
+    return fetch(url);
+
+})
+.then((Response) => {
+    return Response.json();
+})
+.then((data2) => {
+    console.log("data2 =", data2.fact);
+})
+.catch((error) => {
+    console.log("Error", error);
+}); 
+
+/**This is done by using method chaining*/
